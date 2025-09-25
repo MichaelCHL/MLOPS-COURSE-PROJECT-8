@@ -1,0 +1,82 @@
+/* 全域字體與背景 */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* 外層容器 */
+.container {
+    background: #ffffff;
+    margin-top: 50px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+/* 標題 */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* 表單 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* 標籤 */
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+/* 輸入框 */
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+    font-size: 14px;
+}
+
+input[type="number"]:focus {
+    border-color: #3498db;
+}
+
+/* 按鈕 */
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #3498db;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* 預測結果 */
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #27ae60;
+}
